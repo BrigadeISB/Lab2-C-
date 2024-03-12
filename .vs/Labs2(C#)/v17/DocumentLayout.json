@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\\u0422\u0410\\Labs2(C#)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE7C027-78C8-41AD-AE6E-46A200EA9871}|Floyd-Warshall\\Floyd-Warshall.csproj|d:\\documents\\\u0442\u0430\\labs2(c#)\\floyd-warshall\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE7C027-78C8-41AD-AE6E-46A200EA9871}|Floyd-Warshall\\Floyd-Warshall.csproj|solutionrelative:floyd-warshall\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94BB4C36-D83A-44F3-B734-A1420CC1BE61}|Dijkstra\\Dijkstra.csproj|D:\\Documents\\\u0422\u0410\\Labs2(C#)\\dijkstra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94BB4C36-D83A-44F3-B734-A1420CC1BE61}|Dijkstra\\Dijkstra.csproj|solutionrelative:dijkstra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Documents\\\u0422\u0410\\Labs2(C#)\\Dijkstra\\Program.cs",
+              "RelativeDocumentMoniker": "Dijkstra\\Program.cs",
+              "ToolTip": "D:\\Documents\\\u0422\u0410\\Labs2(C#)\\Dijkstra\\Program.cs",
+              "RelativeToolTip": "Dijkstra\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T20:14:53.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Documents\\\u0422\u0410\\Labs2(C#)\\Floyd-Warshall\\Program.cs",
+              "RelativeDocumentMoniker": "Floyd-Warshall\\Program.cs",
+              "ToolTip": "D:\\Documents\\\u0422\u0410\\Labs2(C#)\\Floyd-Warshall\\Program.cs",
+              "RelativeToolTip": "Floyd-Warshall\\Program.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAAAE8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T20:07:22.639Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

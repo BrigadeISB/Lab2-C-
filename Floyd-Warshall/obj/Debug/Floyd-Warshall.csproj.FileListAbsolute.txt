@@ -1,0 +1,7 @@
+D:\Documents\ТА\Labs2(2C#)\Floyd-Warshall\bin\Debug\Floyd-Warshall.exe.config
+D:\Documents\ТА\Labs2(2C#)\Floyd-Warshall\bin\Debug\Floyd-Warshall.exe
+D:\Documents\ТА\Labs2(2C#)\Floyd-Warshall\bin\Debug\Floyd-Warshall.pdb
+D:\Documents\ТА\Labs2(2C#)\Floyd-Warshall\obj\Debug\Floyd-Warshall.csproj.AssemblyReference.cache
+D:\Documents\ТА\Labs2(2C#)\Floyd-Warshall\obj\Debug\Floyd-Warshall.csproj.CoreCompileInputs.cache
+D:\Documents\ТА\Labs2(2C#)\Floyd-Warshall\obj\Debug\Floyd-Warshall.exe
+D:\Documents\ТА\Labs2(2C#)\Floyd-Warshall\obj\Debug\Floyd-Warshall.pdb
