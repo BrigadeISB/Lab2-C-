@@ -28,7 +28,7 @@ class Program
     {
         if (next[i][j] == -1)
         {
-            Console.Write(j + 1 + " ");
+            Console.Write(j + 1);
             return;
         }
 
@@ -43,7 +43,7 @@ class Program
         {
             if (j != startVertex)
             {
-                Console.Write($"{startVertex + 1} -> {j + 1}: ");
+                Console.Write($"Початок (КПI): {startVertex + 1} -> {j + 1}: ");
                 if (graph[startVertex][j] != -1)
                 {
                     Console.Write($"{startVertex + 1} ->");
@@ -53,7 +53,7 @@ class Program
                 {
                     Console.Write("Немає шляху");
                 }
-                Console.WriteLine($"\t\t || Вiдстань: {graph[startVertex][j]} km \t вартiсть - {graph[startVertex][j] * price} UAH");
+                Console.WriteLine($"\t\t || Вартiсть: {graph[startVertex][j]} UAH \t");
             }
         }
     }
@@ -63,17 +63,17 @@ class Program
         // iнiцiалiзацiя графу з вагами ребер
         List<List<double>> graph = new List<List<double>>
         {
-            new List<double>{ -1, -1, -1, 0.5, -1, -1, 3, -1, -1, -1, -1 },
-            new List<double>{ -1, -1, 0.5, -1, -1, 0.4, -1, -1, -1, -1, 0.3 },
-            new List<double>{ -1, 0.5, -1, -1, 0.5, 0.2, -1, -1, 0.5, -1, -1 },
-            new List<double>{ 0.5, -1, -1, -1, -1, -1, -1, 0.5, 0.5, -1, -1 },
-            new List<double>{ -1, -1, 0.5, -1, -1, -1, -1, 0.4, 0.5, 0.3, -1 },
-            new List<double>{ -1, 0.4, 0.2, -1, -1, -1, -1, -1, -1, -1, 0.5 },
-            new List<double>{ 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
-            new List<double>{ -1, -1, -1, 0.5, 0.4, -1, -1, -1, -1, 0.6, -1 },
-            new List<double>{ -1, -1, 0.5, 0.5, 0.5, -1, -1, -1, -1, -1, -1 },
-            new List<double>{ -1, -1, -1, -1, 0.3, -1, -1, 0.6, -1, -1, -1 },
-            new List<double>{ -1, 0.3, -1, -1, -1, 0.5, -1, -1, -1, -1, -1 }
+            new List<double>{ -1, -1, -1, 15, -1, -1, 15, -1, -1, -1, -1 },
+            new List<double>{ -1, -1, 15, -1, -1, 23, -1, -1, -1, -1, 23 },
+            new List<double>{ -1, 15, -1, -1, 15, 23, -1, -1, 15, -1, -1 },
+            new List<double>{ 15, -1, -1, -1, -1, -1, -1, 15, 15, -1, -1 },
+            new List<double>{ -1, -1, 15, -1, -1, -1, -1, 15, 15, 15, -1 },
+            new List<double>{ -1, 23, 23, -1, -1, -1, -1, -1, -1, -1, 23 },
+            new List<double>{ 15, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
+            new List<double>{ -1, -1, -1, 15, 15, -1, -1, -1, -1, 15, -1 },
+            new List<double>{ -1, -1, 15, 15, 15, -1, -1, -1, -1, -1, -1 },
+            new List<double>{ -1, -1, -1, -1, 15, -1, -1, 15, -1, -1, -1 },
+            new List<double>{ -1, 15, -1, -1, -1, 23, -1, -1, -1, -1, -1 }
         };
 
         // iнiцiалiзацiя матрицi next для вiдстеження шляху
@@ -89,7 +89,8 @@ class Program
 
         FloydWarshall(graph, next);
 
-        // Виведення мiнiмальних вiдстаней для кожної пари вершин
+        /*
+        Виведення мiнiмальних вiдстаней для кожної пари вершин
         Console.WriteLine("Мiнiмальнi вiдстанi мiж вершинами:");
         for (int i = 0; i < numVertices; i++)
         {
@@ -99,6 +100,7 @@ class Program
             }
             Console.WriteLine();
         }
+        */
 
         int startVertex = 6; // Вершина, з якої починається обхiд
         int price = 6; // цiна за 1 км у грн/км
